@@ -1,0 +1,90 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 100vh;
+  height: 80vh;
+  padding-right: 4rem;
+}
+
+.main-div > h1 {
+  font-size: 3.2em;
+  margin-bottom: 0;
+}
+
+.main-div > p {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.role {
+  color: rgb(93, 58, 247);
+}
+
+.thankyou {
+  color: rgb(148, 163, 184);
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.thankyou > p {
+  margin: 0;
+  margin-bottom: 6px;
+  padding: 0;
+}
+
+.profile-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  max-width: 350px;
+}
+
+.profile-image img {
+  width: 120%;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 30% 100%, 0 80%);
+}
+
+.contacts {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 10px;
+  height: 100%;
+  color: rgb(148, 163, 184);
+  font-size: 1.2em;
+  padding-left: 8px;
+}
+
+.contacts a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(148, 163, 184);
+  transition: color 0.75s;
+}
+
+a:hover svg path {
+  fill: rgb(229, 231, 235);
+}
+
+@media (max-width: 930px) {
+  .profile-image {
+    display: none;
+  }
+
+  .contacts {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding-left: 0;
+  }
+}

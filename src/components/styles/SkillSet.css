@@ -1,0 +1,81 @@
+.skill-set-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  gap: 60px;
+  color: rgb(148, 163, 184);
+  font-size: 1.2em;
+}
+
+.skill-set-container h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.skill-set-container ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  list-style: none;
+}
+
+.skill-set-container ul li {
+  display: flex;
+  font-size: 16px;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 50px;
+}
+
+.skill-list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill-list ul {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: space-between;
+}
+
+/* @media (max-width: 1100px) {
+  .skill-list {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+  }
+} */
+
+@media (max-width: 705px) {
+  .skill-list {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .skill-set-container {
+    gap: 10px;
+  }
+
+  .skill-set-container ul li {
+    justify-content: center;
+  }
+}

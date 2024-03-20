@@ -1,0 +1,42 @@
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  width: 50%;
+  height: 100vh;
+  gap: 60px;
+  margin-bottom: 20px;
+  color: rgb(148, 163, 184);
+}
+
+.info-container h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/*deve justificar o texto*/
+.info-container p {
+  text-align: justify;
+}
+
+@media (max-width: 930px) {
+  .info-container p {
+    font-size: 0.8em;
+  }
+
+  .info-container {
+    margin-left: 0;
+    padding-left: 16%;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-container {
+    margin-left: 0;
+    padding-left: 0;
+    width: 80%;
+  }
+}
