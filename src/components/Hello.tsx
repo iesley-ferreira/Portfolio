@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles/Hello.css";
 import perfilImage from "../assets/img-perfil1.png";
 import GitHubLink from "./links/GitHub";
@@ -37,9 +38,9 @@ const Hello: React.FC = () => {
           <img src={perfilImage} alt="perfil-image" />
         </div>
       </div>
-      <a hidden className="arrow" href="/about">
+      <Link hidden className="arrow" to="/about">
         <img src={downArrow} alt="back-arrow" />
-      </a>
+      </Link>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import "./styles/Projects.css";
 import React from "react";
-// import useEmblaCarousel from 'embla-carousel-react';
+import { Link } from "react-router-dom";
+
 import "./styles/base.css";
 import "./styles/embla.css";
 import EmblaCarousel from "./EmblaCarousel";
@@ -60,9 +61,9 @@ const Projects: React.FC = () => {
   return (
     <div className="projects__container">
       <div  className="projects__content">
-      <a hidden className="arrow projects__arrow" href="/skills">
+      <Link hidden className="arrow projects__arrow" to="/skills">
         <img src={upArrow} alt="back-arrow" />
-      </a>
+      </Link>
       <h2 className="projects__title">Projects</h2>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './styles/SkillSet.css';
 import upArrow from "../assets/images/up-arrow.svg";
 import downArrow from "../assets/images/down-arrow.svg";
@@ -35,9 +36,9 @@ const skillList1: Skill[] = [
 const SkillSet: React.FC = () => {
   return (
     <div id='Skill-Set' className='skill-set-container'>
-      <a hidden className="arrow" href="/about">
+      <Link hidden className="arrow" to="/about">
         <img src={upArrow} alt="back-arrow" />
-      </a>
+      </Link>
       <h2>My Skills</h2>
       <div className='skill-list'>
         <ul>
@@ -55,9 +56,9 @@ const SkillSet: React.FC = () => {
           ))}
         </ul>
       </div>
-      <a hidden className="arrow" href="/projects">
+      <Link hidden className="arrow" to="/projects">
         <img src={downArrow} alt="back-arrow" />
-      </a>
+      </Link>
     </div>
   );
 };
