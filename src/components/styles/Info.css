@@ -37,6 +37,7 @@
 @media (max-width: 768px) {
   .info-container {
     margin-left: 0;
+    margin-right: 0;
     padding-left: 0;
     width: 80%;
   }
