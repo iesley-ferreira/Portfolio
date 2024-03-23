@@ -1,19 +1,7 @@
 import React, { useState } from "react";
-import { EmblaOptionsType } from "embla-carousel";
-import { DotButton, useDotButton } from "./EmblaCarouselDotButtons";
-import {
-  PrevButton,
-  NextButton,
-  usePrevNextButtons,
-} from "./EmblaCarouselArrowButtons";
-import useEmblaCarousel from "embla-carousel-react";
 import "./styles/Projects.css";
-import eyeSvg from "../assets/images/eye.svg";
+import eyeSvg from "../assets/images/enter.svg";
 
-type PropType = {
-  slides: number[];
-  options?: EmblaOptionsType;
-};
 
 interface Project {
   id: number;
