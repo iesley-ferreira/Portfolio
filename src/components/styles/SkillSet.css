@@ -5,6 +5,7 @@
   justify-content: center;
   width: 100%;
   height: 100vh;
+  margin-right: 10rem;
   gap: 60px;
   color: rgb(148, 163, 184);
   font-size: 1.2em;
@@ -44,12 +45,6 @@
 .skill-list ul {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.skill-list ul {
-  display: flex;
-  flex-direction: column;
   width: auto;
   justify-content: space-between;
 }
@@ -71,8 +66,12 @@
     gap: 0;
   }
 
+  .skill-list ul li {
+    margin: 0.4rem;
+  }
+
   .skill-set-container {
-    gap: 10px;
+    gap: 30px;
   }
 
   .skill-set-container ul li {

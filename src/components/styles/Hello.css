@@ -1,11 +1,22 @@
 .main-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   width: 80%;
   height: 100vh;
   height: 80vh;
+  padding-right: 4rem;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 80vh;
+  gap: 1rem;
   padding-right: 4rem;
 }
 
@@ -86,5 +97,36 @@ a:hover svg path {
 @media (max-width: 768px) {
   .main-container {
     padding-left: 0;
+  }
+  .main-container {
+    width: 90%;
+    padding: 0;
+  }
+  .principal {
+    width: 100%;
+    padding: 0;
+  }
+  .arrow {
+    display: block;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+  }
+}
+
+@media (max-width: 1200px) {
+  .profile-image {
+    display: none;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }

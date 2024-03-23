@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles/SkillSet.css';
+import upArrow from "../assets/images/up-arrow.svg";
+import downArrow from "../assets/images/down-arrow.svg";
 
 interface Skill {
   name: string;
@@ -33,6 +35,9 @@ const skillList1: Skill[] = [
 const SkillSet: React.FC = () => {
   return (
     <div id='Skill-Set' className='skill-set-container'>
+      <a hidden className="arrow" href="/about">
+        <img src={upArrow} alt="back-arrow" />
+      </a>
       <h2>My Skills</h2>
       <div className='skill-list'>
         <ul>
@@ -50,6 +55,9 @@ const SkillSet: React.FC = () => {
           ))}
         </ul>
       </div>
+      <a hidden className="arrow" href="/projects">
+        <img src={downArrow} alt="back-arrow" />
+      </a>
     </div>
   );
 };

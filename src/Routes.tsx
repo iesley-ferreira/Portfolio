@@ -13,7 +13,7 @@ export const browserRouter = createBrowserRouter([
     children: [
       {
         index: true,
-        path: "home",
+        // path: "home",
         element: <Hello />,
       },
       {

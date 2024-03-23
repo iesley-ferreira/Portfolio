@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "ITC Avant Garde Gothic";
+  src: local("ITC Avant Garde Gothic Bold"),
+    local("ITC-Avant-Garde-Gothic-Bold"),
+    url("../../assets/fonts/ITCAvantGardeStd-Bold.woff2") format("woff2"),
+    url("../../assets/fonts/ITCAvantGardeStd-Bold.woff") format("woff"),
+    url("../../assets/fonts/ITCAvantGardeStd-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ITC Avant Garde Pro Bold";
+  src: url("../../assets/fonts/ITCAvantGardePro-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -14,7 +31,8 @@
 
 .header-container h1 {
   font-size: 2em;
-  text-transform: uppercase;
+  font-family: "ITC Avant Garde Gothic", "ITC Avant Garde Pro Bold", sans-serif;
+  font-weight: 900;
 }
 
 .menu {

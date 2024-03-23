@@ -1,15 +1,15 @@
-.wrapper {
+/* .wrapper {
   display: flex;
 }
 
-/* .roadmap {
+.roadmap {
   height: 440px;
   position: fixed;
   background-color: rgb(148, 163, 184);
   width: 2px;
   top: 30%;
   left: 18%;
-} */
+}
 
 .roadmap ul {
   padding: 0;
@@ -53,10 +53,10 @@
 }
 
 @media (max-width: 768px) {
-  .roadmap {
+  /* .roadmap {
     display: none;
-  }
+  } */
   html {
     overflow: scroll;
   }
-}
+} */

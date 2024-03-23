@@ -6,16 +6,16 @@ import Header from "./components/Header";
 import "./RootLayout.css";
 
 const RootLayout = (): JSX.Element => {
-  const [currentSection, setCurrentSection] = useState<string>("Home");
+  const [currentSection, setCurrentSection] = useState<string>("home");
 
   useEffect(() => {
     const path = window.location.pathname.split("/")[1];
-    console.log(path);
 
     setCurrentSection(path);
   }, []);
 
   const handleSectionChange = (section: string) => {
+    console.log(section);
     setCurrentSection(section);
   };
 
@@ -25,13 +25,13 @@ const RootLayout = (): JSX.Element => {
       <nav className="layout-nav">
         <div className="roadmap-bar"></div>
         <Link
-          to="/home"
-          onClick={() => handleSectionChange("home")}
-          className={currentSection === "home" ? "sublinhado" : "vazio"}
+          to="/"
+          onClick={() => handleSectionChange("")}
+          className={currentSection === "" ? "sublinhado" : "vazio"}
         >
           Home
           <Circle
-            className={currentSection === "home" ? "preenchido" : "vazio"}
+            className={currentSection === "" ? "preenchido" : "vazio"}
           />
         </Link>
 
