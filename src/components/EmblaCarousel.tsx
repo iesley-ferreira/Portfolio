@@ -8,6 +8,7 @@ import {
 } from "./EmblaCarouselArrowButtons";
 import useEmblaCarousel from "embla-carousel-react";
 import "./styles/Projects.css";
+import ProjectCard from "./ProjectCard";
 
 type PropType = {
   slides: number[];
@@ -99,27 +100,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {projects.map((project) => (
-            <a
-              href={project.ref}
-              target="_blank"
-              className="embla__slide Project-card"
-              key={project.id}
-            >
-              <div>
-                <h2>{project.title} </h2>
-                <p>{project.description}</p>
-              </div>
-              <div className="Project-card_img">
-                <img src={project.image} alt={project.title} />
-              </div>
-              <div className="Project-card_techs">
-                <ul>
-                  {project.stack.map((tech, index) => (
-                    <li key={index}>{tech}</li>
-                  ))}
-                </ul>
-              </div>
-            </a>
+            <ProjectCard project={project} key={project.id} />
           ))}
         </div>
       </div>

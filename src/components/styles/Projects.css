@@ -121,3 +121,13 @@
 .projects__title {
   color: rgb(148, 163, 184);
 }
+
+.card__header__content {
+  position: relative;
+}
+
+.eye__img {
+  position: absolute;
+  top: -4px;
+  right: 10px;
+}
