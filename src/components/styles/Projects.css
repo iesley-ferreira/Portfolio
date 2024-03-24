@@ -7,6 +7,7 @@
     url("../../assets/fonts/ITCAvantGardeStd-Demi.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 #Projects {

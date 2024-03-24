@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './styles/Info.css';
+import './styles/About.css';
 import upArrow from "../assets/images/up-arrow.svg";
 import downArrow from "../assets/images/down-arrow.svg";
 

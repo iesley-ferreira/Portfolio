@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles/Hello.css";
-import perfilImage from "../assets/img-perfil1.png";
+import "./styles/Home.css";
+import perfilImage from "../assets/img-perfil8pb.avif";
 import GitHubLink from "./links/GitHub";
 import LinkedIn from "./links/LinkedIn";
 import WhatsApp from "./links/WhatsApp";
@@ -18,7 +18,7 @@ const Hello: React.FC = () => {
           <h1 className="animate__animated animate__fadeInUp animate__slow">
             Iesley Ferreira
           </h1>
-          <p className="role">Full-Stack Developer</p>
+          <p className="role typing__animation">Full-Stack Developer</p>
           <div className="thankyou">
             <p>Thank you for visiting.</p>
             <p>I am excited to showcase my portfolio and skills.</p>

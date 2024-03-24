@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import Hello from "./components/Hello";
-import About from "./components/Info";
+import Hello from "./components/Home";
+import About from "./components/About";
 import SkillSet from "./components/SkillSet";
 import Projects from "./components/Projects";
 import RootLayout from "./RootLayout";

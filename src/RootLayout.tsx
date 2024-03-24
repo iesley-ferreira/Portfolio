@@ -15,7 +15,6 @@ const RootLayout = (): JSX.Element => {
   }, []);
 
   const handleSectionChange = (section: string) => {
-    console.log(section);
     setCurrentSection(section);
   };
 

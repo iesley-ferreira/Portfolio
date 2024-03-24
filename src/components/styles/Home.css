@@ -31,7 +31,33 @@
 }
 
 .role {
+  border-right: 2px solid rgb(34, 43, 82);
   color: rgb(93, 58, 247);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.typing__animation {
+  animation: blinkCursor 700ms infinite 2s,
+    typing 2s steps(32) 1.05s normal both;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10.05em;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgb(117, 118, 182);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 .thankyou {
