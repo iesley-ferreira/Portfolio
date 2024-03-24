@@ -9,18 +9,6 @@ interface Skill {
   level: string;
 }
 
-const skillList2: Skill[] = [
-  { name: 'HTML', level: 'Advanced' },
-  { name: 'CSS', level: 'Advanced' },
-  { name: 'JavaScript', level: 'Advanced' },
-  { name: 'React', level: 'Advanced' },
-  { name: 'Redux', level: 'Intermediate' },
-  { name: 'vite', level: 'Intermediate' },
-  { name: 'TypeScript', level: 'Intermediate' },
-  { name: 'Node.js', level: 'Intermediate' },
-  { name: 'Express.js', level: 'Intermediate' },
-];
-
 const skillList1: Skill[] = [
   { name: 'RESTful APIs', level: 'Intermediate' },
   { name: 'Agile Methodologies', level: 'Intermediate' },
@@ -31,6 +19,19 @@ const skillList1: Skill[] = [
   { name: 'GitHub', level: 'Intermediate' },
   { name: 'UI', level: 'Intermediate' },
   { name: 'UX', level: 'Intermediate' },
+  { name: 'Docker', level: 'Intermediate' },
+];
+
+const skillList2: Skill[] = [
+  { name: 'HTML', level: 'Advanced' },
+  { name: 'CSS', level: 'Advanced' },
+  { name: 'JavaScript', level: 'Advanced' },
+  { name: 'React', level: 'Advanced' },
+  { name: 'Redux', level: 'Intermediate' },
+  { name: 'Vite', level: 'Intermediate' },
+  { name: 'TypeScript', level: 'Intermediate' },
+  { name: 'Node.js', level: 'Intermediate' },
+  { name: 'Express.js', level: 'Intermediate' },
 ];
 
 const SkillSet: React.FC = () => {
