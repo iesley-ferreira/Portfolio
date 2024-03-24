@@ -19,8 +19,8 @@ const ProjectCard: React.FC<{
   const [showEye, setShowEye] = useState(false);
 
   return (
-    <a
-      href={project.ref}
+    <Link
+      to={project.ref}
       target="_blank"
       className="embla__slide Project-card"
       onMouseEnter={() => setShowEye(true)}
@@ -42,7 +42,7 @@ const ProjectCard: React.FC<{
           ))}
         </ul>
       </div>
-    </a>
+    </Link>
   );
 };
 
