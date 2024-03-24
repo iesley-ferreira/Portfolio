@@ -44,7 +44,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       title: "MedQuest",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "src/assets/images/MedQuest_resized.png",
+      image: "../src/assets/images/MedQuest_resized.png",
       ref: "https://medquest.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
@@ -53,7 +53,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       title: "MedQuest2",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "src/assets/images/MedQuest_resized.png",
+      image: "../src/assets/images/MedQuest_resized.png",
       ref: "https://medquest.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
@@ -62,7 +62,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
      title: "MedQuest3",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "src/assets/images/MedQuest_resized.png",
+      image: "../src/assets/images/MedQuest_resized.png",
       ref: "https://medquest.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
@@ -71,7 +71,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       title: "MedQuest4",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "src/assets/images/MedQuest_resized.png",
+      image: "../src/assets/images/MedQuest_resized.png",
       ref: "https://medquest.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
@@ -80,7 +80,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       title: "MedQuest5",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "src/assets/images/MedQuest_resized.png",
+      image: "../src/assets/images/MedQuest_resized.png",
       ref: "https://medquest.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
@@ -89,7 +89,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       title: "MedQuest6",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "src/assets/images/MedQuest_resized.png",
+      image: "../src/assets/images/MedQuest_resized.png",
       ref: "https://medquest.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },

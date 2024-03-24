@@ -49,17 +49,6 @@
   justify-content: space-between;
 }
 
-/* @media (max-width: 1100px) {
-  .skill-list {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 25%;
-  }
-} */
-
 @media (max-width: 705px) {
   .skill-list {
     flex-direction: column;
@@ -71,11 +60,12 @@
   }
 
   .skill-set-container {
-    gap: 30px;
+    gap: 0;
     margin-right: 0;
   }
 
   .skill-set-container ul li {
     justify-content: center;
+    font-size: 0.8em;
   }
 }
