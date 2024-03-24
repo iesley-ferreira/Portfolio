@@ -1,4 +1,4 @@
-# Porfolio
+# Porfolio (em construção)
 
 Esse projeto é um web-site pessoal feito usando a seguinte stack:
 
