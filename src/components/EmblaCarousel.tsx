@@ -55,7 +55,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
         "Um aplicativo de musicas para ouvir a prévia de seus artistas favoritos.",
       image: "/TrybeTunes-img.png",
       ref: "https://medquest.vercel.app",
-      stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
+      stack: ["React", "Node.js", "css", "Vercel"],
     },
     {
       id: 3,
