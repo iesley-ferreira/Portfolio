@@ -1,35 +1,22 @@
-import { createBrowserRouter } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+} from "react-router-dom";
 
-import RootLayout from "./RootLayout";
 import About from "./components/About";
 import Hello from "./components/Home";
 import Projects from "./components/Projects";
 import SkillSet from "./components/SkillSet";
+import RootLayout from "./RootLayout";
 
 export const browserRouter = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <RootLayout />,
-      children: [
-        {
-          index: true,
-          element: <Hello />,
-        },
-        {
-          path: "/about",
-          element: <About />,
-        },
-        {
-          path: "/skills",
-          element: <SkillSet />,
-        },
-        {
-          path: "/projects",
-          element: <Projects />,
-        },
-      ],
-    },
-  ],
-  { basename: "/" }
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<Hello />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/skills" element={<SkillSet />} />
+      <Route path="/projects" element={<Projects />} />
+    </Route>
+  )
 );
