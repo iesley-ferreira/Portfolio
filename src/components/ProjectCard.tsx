@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./styles/Projects.css";
-import eyeSvg from "../assets/images/enter.svg";
-
+import enterSvg from "../assets/images/enter.svg";
 
 interface Project {
   id: number;
@@ -30,7 +29,7 @@ const ProjectCard: React.FC<{
       <div className="card__header__content">
         <h2>{project.title}</h2>
         <p className="paragraph__slide">{project.description}</p>
-        {showEye && <img className="eye__img" src={eyeSvg} alt="eye" />}
+        {showEye && <img className="eye__img" src={enterSvg} alt="eye" />}
       </div>
       <div className="Project-card_img">
         <img src={project.image} alt={project.title} />
