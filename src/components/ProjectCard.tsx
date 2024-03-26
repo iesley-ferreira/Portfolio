@@ -29,7 +29,7 @@ const ProjectCard: React.FC<{
     >
       <div className="card__header__content">
         <h2>{project.title}</h2>
-        <p>{project.description}</p>
+        <p className="paragraph__slide">{project.description}</p>
         {showEye && <img className="eye__img" src={eyeSvg} alt="eye" />}
       </div>
       <div className="Project-card_img">

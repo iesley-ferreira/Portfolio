@@ -44,27 +44,26 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       title: "MedQuest",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "public/MedQuest_resized.png",
+      image: "/src/assets/MedQuest_resized.png",
       ref: "https://medquest.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
     {
       id: 2,
-      title: "MedQuest2",
+      title: "Trybe Tunes",
       description:
-        "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "../src/assets/images/MedQuest_resized.png",
+        "Um aplicativo de musicas para ouvir a prévia de seus artistas favoritos.",
+      image: "public/TrybeTunes-img.png",
       ref: "https://medquest.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
     {
       id: 3,
-     title: "MedQuest3",
-      description:
-        "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "../src/assets/images/MedQuest_resized.png",
+      title: "Lottery-Frontend",
+      description: "Um aplicativo de avaliação para uma casa lotérica.",
+      image: "src/assets/lottery2_resized.png",
       ref: "https://medquest.vercel.app",
-      stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
+      stack: ["React", "TypeScript", "Node.js", "css", "Vercel"],
     },
     {
       id: 4,
