@@ -11,8 +11,8 @@ const GitHub: React.FC = () => {
     >
       <svg
         fill="rgb(148, 163, 184)"
-        width="22"
-        height="22"
+        width="23"
+        height="23"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
       >

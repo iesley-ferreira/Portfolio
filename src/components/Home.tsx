@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles/Home.css";
-import perfilImage from "../assets/img-perfil8pb.avif";
+import downArrow from "../assets/images/down-arrow.svg";
+import perfilImage from "../assets/img-perfil-01pb.png";
 import GitHubLink from "./links/GitHub";
+import Instagram from "./links/Instagram";
 import LinkedIn from "./links/LinkedIn";
 import WhatsApp from "./links/WhatsApp";
-import Instagram from "./links/Instagram";
-import downArrow from "../assets/images/down-arrow.svg";
+import "./styles/Home.css";
 
 import "animate.css";
+import Mail from "./links/Mail";
 
 const Hello: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const Hello: React.FC = () => {
       <div className="principal">
         <div className="main-div">
           <h1 className="animate__animated animate__fadeInUp animate__slow">
-            Iesley Ferreira
+            Iesley Ferreira.
           </h1>
           <p className="role typing__animation">Full-Stack Developer</p>
           <div className="thankyou">
@@ -28,10 +29,21 @@ const Hello: React.FC = () => {
             </p>
           </div>
           <div className="contacts">
+            <img
+              className="left-indication-icon"
+              src="./src/assets/animations/animation1.gif"
+              alt="indication-icon"
+            />
             <GitHubLink />
             <LinkedIn />
             <WhatsApp />
             <Instagram />
+            <Mail />
+            <img
+              className="right-indication-icon"
+              src="./src/assets/animations/animation1.gif"
+              alt="indication-icon"
+            />
           </div>
         </div>
         <div className="profile-image">

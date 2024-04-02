@@ -39,8 +39,7 @@
 }
 
 .typing__animation {
-  animation: blinkCursor 700ms infinite 2s,
-    typing 2s steps(32) 1.05s normal both;
+  animation: blinkCursor 0.7s infinite 2s, typing 2s steps(32) 1.05s normal both;
 }
 
 @keyframes typing {
@@ -89,13 +88,19 @@
 
 .contacts {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   gap: 10px;
   height: 100%;
   color: rgb(148, 163, 184);
   font-size: 1.2em;
   padding-left: 8px;
+}
+
+.contacts p {
+  text-align: center;
+  line-height: 1;
+  padding-top: 4px;
 }
 
 .contacts a {
@@ -156,4 +161,23 @@ a:hover svg path {
   100% {
     transform: translateY(0px);
   }
+}
+
+.left-indication-icon {
+  width: 38px;
+  rotate: -90deg;
+}
+
+.right-indication-icon {
+  width: 38px;
+  rotate: 90deg;
+}
+
+.contrate-me {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 5px;
+  gap: 10px;
+  font-size: 1.2em;
 }
