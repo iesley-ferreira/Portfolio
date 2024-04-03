@@ -2,8 +2,7 @@ import Lottie from "lottie-react";
 import React from "react";
 import { Link } from "react-router-dom";
 import animationData from "../assets/animations/animation.json";
-import downArrow from "../assets/images/down-arrow.svg";
-import perfilImage from "../assets/img-perfil-01pb.png";
+import perfilImage from "../assets/images/img-perfil-01pb.png";
 import GitHubLink from "./links/GitHub";
 import Instagram from "./links/Instagram";
 import LinkedIn from "./links/LinkedIn";
@@ -12,6 +11,7 @@ import "./styles/Home.css";
 
 import "animate.css";
 import Mail from "./links/Mail";
+import DownArrow from "./svgs/arrows/DownArrow";
 
 const Hello: React.FC = () => {
   return (
@@ -51,7 +51,7 @@ const Hello: React.FC = () => {
         </div>
       </div>
       <Link hidden className="arrow" to="/about">
-        <img src={downArrow} alt="back-arrow" />
+        <DownArrow />
       </Link>
     </div>
   );

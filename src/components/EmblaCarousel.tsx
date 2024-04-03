@@ -1,14 +1,14 @@
-import React from "react";
 import { EmblaOptionsType } from "embla-carousel";
-import { DotButton, useDotButton } from "./EmblaCarouselDotButtons";
+import useEmblaCarousel from "embla-carousel-react";
+import React from "react";
 import {
-  PrevButton,
   NextButton,
+  PrevButton,
   usePrevNextButtons,
 } from "./EmblaCarouselArrowButtons";
-import useEmblaCarousel from "embla-carousel-react";
-import "./styles/Projects.css";
+import { DotButton, useDotButton } from "./EmblaCarouselDotButtons";
 import ProjectCard from "./ProjectCard";
+import "./styles/Projects.css";
 
 type PropType = {
   slides: number[];
@@ -67,7 +67,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     },
     {
       id: 4,
-      title: "MedQuest4",
+      title: "Project4",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
       image: "../src/assets/images/MedQuest_resized.png",
@@ -76,7 +76,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     },
     {
       id: 5,
-      title: "MedQuest5",
+      title: "Project5",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
       image: "../src/assets/images/MedQuest_resized.png",
@@ -85,7 +85,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     },
     {
       id: 6,
-      title: "MedQuest6",
+      title: "Project6",
       description:
         "Um aplicativo de perguntas e respostas para estudantes de medicina.",
       image: "../src/assets/images/MedQuest_resized.png",
