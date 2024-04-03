@@ -7,9 +7,9 @@
   width: 50%;
   height: 100vh;
   gap: 60px;
-  margin-right: 10rem;
   margin-bottom: 20px;
   color: rgb(148, 163, 184);
+  padding-left: 12rem;
 }
 
 .info-container h2 {
