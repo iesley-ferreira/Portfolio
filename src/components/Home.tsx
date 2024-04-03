@@ -1,5 +1,7 @@
+import Lottie from "lottie-react";
 import React from "react";
 import { Link } from "react-router-dom";
+import animationData from "../assets/animations/animation.json";
 import downArrow from "../assets/images/down-arrow.svg";
 import perfilImage from "../assets/img-perfil-01pb.png";
 import GitHubLink from "./links/GitHub";
@@ -29,29 +31,19 @@ const Hello: React.FC = () => {
             </p>
           </div>
           <div className="contacts">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
+            <Lottie
               className="left-indication-icon"
-            >
-              <source src="/dist/animation-seta.webm" type="video/webm" />
-            </video>
+              animationData={animationData}
+            />
             <GitHubLink />
             <LinkedIn />
             <WhatsApp />
             <Instagram />
             <Mail />
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
+            <Lottie
               className="right-indication-icon"
-            >
-              <source src="/dist/animation-seta.webm" type="video/webm" />
-            </video>
+              animationData={animationData}
+            />
           </div>
         </div>
         <div className="profile-image">
