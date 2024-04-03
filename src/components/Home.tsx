@@ -31,7 +31,7 @@ const Hello: React.FC = () => {
           <div className="contacts">
             <img
               className="left-indication-icon"
-              src="./src/assets/animations/animation1.gif"
+              src="./src/assets/animation1.gif"
               alt="indication-icon"
             />
             <GitHubLink />
@@ -41,7 +41,7 @@ const Hello: React.FC = () => {
             <Mail />
             <img
               className="right-indication-icon"
-              src="./src/assets/animations/animation1.gif"
+              src="./src/assets/animation1.gif"
               alt="indication-icon"
             />
           </div>
