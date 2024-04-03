@@ -29,21 +29,29 @@ const Hello: React.FC = () => {
             </p>
           </div>
           <div className="contacts">
-            <img
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
               className="left-indication-icon"
-              src="/dist/animation1.gif"
-              alt="indication-icon"
-            />
+            >
+              <source src="/dist/animation-seta.webm" type="video/webm" />
+            </video>
             <GitHubLink />
             <LinkedIn />
             <WhatsApp />
             <Instagram />
             <Mail />
-            <img
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
               className="right-indication-icon"
-              src="/dist/animation1.gif"
-              alt="indication-icon"
-            />
+            >
+              <source src="/dist/animation-seta.webm" type="video/webm" />
+            </video>
           </div>
         </div>
         <div className="profile-image">
