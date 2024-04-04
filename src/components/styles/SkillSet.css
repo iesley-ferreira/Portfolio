@@ -8,7 +8,7 @@
   gap: 60px;
   color: rgb(148, 163, 184);
   font-size: 1.2em;
-  padding-left: 12rem;
+  padding-left: 12%;
 }
 
 .skill-set-container h2 {
@@ -49,7 +49,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 705px) {
+@media (max-width: 768px) {
   .skill-list {
     flex-direction: column;
     gap: 0;
