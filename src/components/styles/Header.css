@@ -19,7 +19,7 @@
 
 .header-container-principal {
   width: 100%;
-  position: relative;
+  position: static;
 }
 
 .header-container {
