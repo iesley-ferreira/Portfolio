@@ -137,6 +137,7 @@ a:hover svg path {
   }
   .principal {
     width: 100%;
+    height: fit-content;
     padding: 0;
   }
   .arrow {
