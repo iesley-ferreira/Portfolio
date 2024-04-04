@@ -132,7 +132,7 @@ a:hover svg path {
     padding-left: 0;
   }
   .main-container {
-    width: 90%;
+    width: 88%;
     padding: 0;
   }
   .principal {
@@ -143,6 +143,10 @@ a:hover svg path {
     display: block;
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
+  }
+  .contacts {
+    justify-content: center;
+    padding-left: 0;
   }
 }
 
