@@ -11,21 +11,37 @@ const Info: React.FC = () => {
         <img src={upArrow} alt="back-arrow" />
       </Link>
       <h2>About</h2>
-      <p>
-        Welcome to my online portfolio of a dynamic Full-Stack Developer. On a
-        journey of continuous growth and innovation. Embarking on this coding
-        odyssey in January 2023, I've since traversed through an ever-evolving
-        landscape of programming languages, frameworks, and cutting-edge
-        technologies.
-      </p>
-      <p>
-        Within these digital walls, you'll witness the culmination of my
-        relentless pursuit of excellence in web development. From crafting sleek
-        and responsive front-end interfaces that captivate users at first glance
-        to architecting robust back-end systems that ensure seamless
-        functionality, my expertise spans the entire spectrum of web
-        development.
-      </p>
+      <div className="text-container">
+        <p>Meu nome é Iesley, e sou um apaixonado por tecnologia.</p>
+        <p>
+          Desde que me envolvi com programação, descobri uma paixão por criar
+          soluções digitais e me desafiar constantemente a aprender e crescer.
+        </p>
+        <p>
+          Minha jornada até aqui tem sido marcada por determinação e entusiasmo
+          em explorar o vasto mundo do desenvolvimento web.
+        </p>
+        <p>
+          Descobri uma paixão por criar experiências digitais envolventes e
+          funcionais. Meu objetivo é ir além das expectativas dos clientes,
+          construindo não apenas websites, mas sim soluções digitais que
+          resolvam problemas de forma eficaz e impressionem os usuários.
+        </p>
+        <p>
+          Tenho na minha caixa de ferramentas diversas tecnologias. Estou
+          constantemente buscando aprender e me atualizar para garantir que
+          minhas habilidades estejam alinhadas com as últimas tendências e
+          melhores práticas do mercado. Além do desenvolvimento, sou um
+          entusiasta da usabilidade e da acessibilidade. Acredito que a
+          experiência do usuário deve ser prioridade em cada projeto que
+          empreendo. Quando não estou codificando, gosto de me inspirar em
+          diferentes formas de arte e explorar novas tecnologias. Estou sempre
+          pronto para enfrentar novos desafios e expandir meus horizontes. Estou
+          animado para colaborar com você e transformar suas ideias em
+          realidade. Vamos trabalhar juntos para criar algo verdadeiramente
+          excepcional.
+        </p>
+      </div>
       <Link hidden className="arrow about-next-arrow" to="/skills">
         <img src={downArrow} alt="next-arrow" />
       </Link>

@@ -23,16 +23,15 @@ const Hello: React.FC = () => {
           </h1>
           <p className="role typing__animation">Full-Stack Developer</p>
           <div className="thankyou">
-            <p>Thank you for visiting.</p>
-            <br />
+            <p>Bem-vindo!</p>
             <p>
-              I build pixel-perfect, engaging, and accessible digital
-              experiences.
+              Eu construo experiências digitais de alto nível, envolventes e
+              acessíveis.
             </p>
-            <br />
+            <p>Juntos podemos tornar suas ideias realidade.</p>
             <p>
-              Let's collaborate and make your ideas come true. Contact me today
-              to discuss your project and start an exciting journey.
+              Entre em contato hoje mesmo para discutir seu projeto e iniciar
+              uma jornada incrível.
             </p>
           </div>
           <div className="contacts">
