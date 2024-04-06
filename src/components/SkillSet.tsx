@@ -134,6 +134,19 @@ const skillList: Skill[] = [
   },
 ];
 
+// const skillListTest: Skill[] = [
+//   {
+//     name: "Css",
+//     image: "Css.tsx",
+//     level: 4.2,
+//   },
+//   {
+//     name: "Cypress",
+//     image: "Cypress.tsx",
+//     level: 4.4,
+//   },
+// ];
+
 const SkillSet: React.FC = () => {
   return (
     <div id="Skill-Set" className="skill-set-container">

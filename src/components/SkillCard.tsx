@@ -13,31 +13,27 @@ interface SkillCardProps {
 
 const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
   const [SvgComponent, setSvgComponent] = useState<React.FC | null>(null);
+  const fillPercentage = (skill.level / 5) * 100;
 
   useEffect(() => {
-    const loadSvgComponent = async () => {
+    const importSvg = async () => {
       try {
         const { default: Svg } = await import(`./svgs/skills/${skill.image}`);
+
         setSvgComponent(() => Svg);
       } catch (error) {
-        console.error("Erro ao carregar o componente SVG:", error);
+        console.error("Erro ao importar o SVG:", error);
       }
     };
 
-    loadSvgComponent();
+    importSvg();
   }, [skill.image]);
-
-  const fillPercentage = (skill.level / 5) * 100;
 
   return (
     <div className="skill-card-container">
       <div className="skill-card">
         <h3>{skill.name}</h3>
-        {SvgComponent ? (
-          <SvgComponent />
-        ) : (
-          <img src={skill.image} alt={skill.name} />
-        )}
+        {SvgComponent && <SvgComponent />}
         <div className="level-bar">
           <div className="fill" style={{ width: `${fillPercentage}%` }}></div>
         </div>
@@ -45,5 +41,4 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
     </div>
   );
 };
-
 export default SkillCard;

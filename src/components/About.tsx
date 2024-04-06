@@ -8,7 +8,7 @@ const Info: React.FC = () => {
   return (
     <div id="About" className="info-container">
       <Link hidden className="arrow" to="/">
-        <img src={upArrow} alt="back-arrow" />
+        <img src={upArrow as string} alt="back-arrow" />
       </Link>
       <h2>About</h2>
       <div className="text-container">
@@ -24,7 +24,7 @@ const Info: React.FC = () => {
         </p>
       </div>
       <Link hidden className="arrow about-next-arrow" to="/skills">
-        <img src={downArrow} alt="next-arrow" />
+        <img src={downArrow as string} alt="next-arrow" />
       </Link>
     </div>
   );
