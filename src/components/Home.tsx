@@ -23,28 +23,33 @@ const Hello: React.FC = () => {
           </h1>
           <p className="role typing__animation">Full-Stack Developer</p>
           <div className="thankyou">
-            <p>Bem-vindo!</p>
+            <p>Bem-vindo ao meu mundo digital!</p>
             <p>
-              Eu construo experiências digitais de alto nível, envolventes e
-              acessíveis.
+              Minha especialidade é criar experiências digitais envolventes e
+              acessíveis, elevando suas concepções para o próximo nível.
             </p>
-            <p>Juntos podemos tornar suas ideias realidade.</p>
-            <p>Entre em contato hoje mesmo para discutir seu projeto.</p>
+            <p>Vamos transformar suas visões em realidade juntos.</p>
+            <p>
+              Entre em contato hoje mesmo para discutir seu projeto e dar vida
+              às suas ideias.
+            </p>
           </div>
-          <div className="contacts">
-            <Lottie
-              className="left-indication-icon"
-              animationData={animationData}
-            />
-            <GitHubLink />
-            <LinkedIn />
-            <WhatsApp />
-            <Instagram />
-            <Mail />
-            <Lottie
-              className="right-indication-icon"
-              animationData={animationData}
-            />
+          <div className="contacts-container">
+            <div className="contacts">
+              <Lottie
+                className="left-indication-icon"
+                animationData={animationData}
+              />
+              <GitHubLink />
+              <LinkedIn />
+              <WhatsApp />
+              <Instagram />
+              <Mail />
+              <Lottie
+                className="right-indication-icon"
+                animationData={animationData}
+              />
+            </div>
           </div>
         </div>
         <div className="profile-image">
