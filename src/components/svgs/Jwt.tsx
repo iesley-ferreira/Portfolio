@@ -3,21 +3,7 @@ import React from "react";
 const Jwt: React.FC = () => {
   return (
     <svg x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
-      <g
-        fill="#0f172a"
-        fill-rule="nonzero"
-        stroke="none"
-        stroke-width="1"
-        stroke-linecap="butt"
-        stroke-linejoin="miter"
-        stroke-miterlimit="10"
-        stroke-dasharray=""
-        stroke-dashoffset="0"
-        font-family="none"
-        font-weight="none"
-        font-size="none"
-        text-anchor="none"
-      >
+      <g fill="#0f172a">
         <g transform="scale(5.33333,5.33333)">
           <path d="M21.906,31.772l2.601,-2.724l2.6,2.724v11.228h-5.201z"></path>
           <path d="M17.737,29.058l3.705,-0.675l0.503,3.732l-6.6,9.084l-4.207,-3.058z"></path>

@@ -2,18 +2,9 @@ import React from "react";
 
 const Css: React.FC = () => {
   return (
-    <svg
-      fill="#0f172a"
-      version="1.1"
-      viewBox="0 0 512 512"
-      enable-background="new 0 0 512 512"
-    >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      ></g>
+    <svg fill="#0f172a" version="1.1" viewBox="0 0 512 512">
+      <g id="SVGRepo_bgCarrier"></g>
+      <g id="SVGRepo_tracerCarrier"></g>
       <g id="SVGRepo_iconCarrier">
         {" "}
         <g id="c133de6af664cd4f011a55de6b001b19">

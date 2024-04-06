@@ -3,12 +3,8 @@ import React from "react";
 const Vite: React.FC = () => {
   return (
     <svg viewBox="0 0 32 32" fill="none">
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      ></g>
+      <g id="SVGRepo_bgCarrier"></g>
+      <g id="SVGRepo_tracerCarrier"></g>
       <g id="SVGRepo_iconCarrier">
         <path
           d="M29.8836 6.146L16.7418 29.6457c-.2714.4851-.9684.488-1.2439.0052L2.0956 6.1482c-.3-.5262.1498-1.1635.746-1.057l13.156 2.3516a.7144.7144 0 00.2537-.0004l12.8808-2.3478c.5942-.1083 1.0463.5241.7515 1.0513z"
@@ -28,8 +24,8 @@ const Vite: React.FC = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
           >
-            <stop stop-color="#0f172a" id="stop38"></stop>
-            <stop offset="1" stop-color="#0f172a" id="stop40"></stop>
+            <stop id="stop38"></stop>
+            <stop offset="1" id="stop40"></stop>
           </linearGradient>
           <linearGradient
             id="paint1_linear"
@@ -40,9 +36,9 @@ const Vite: React.FC = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
           >
-            <stop stop-color="#b4c1d4" id="stop43"></stop>
-            <stop offset=".0833" stop-color="#0f172a" id="stop45"></stop>
-            <stop offset="1" stop-color="#b4c1d4" id="stop47"></stop>
+            <stop id="stop43"></stop>
+            <stop offset=".0833" id="stop45"></stop>
+            <stop offset="1" id="stop47"></stop>
           </linearGradient>
         </defs>
       </g>

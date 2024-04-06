@@ -2,13 +2,9 @@ import React from "react";
 
 const Docker: React.FC = () => {
   return (
-    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      ></g>
+    <svg viewBox="0 0 16 16" fill="none">
+      <g id="SVGRepo_bgCarrier"></g>
+      <g id="SVGRepo_tracerCarrier"></g>
       <g id="SVGRepo_iconCarrier">
         <path
           fill="#0f172a"

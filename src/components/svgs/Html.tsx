@@ -3,23 +3,13 @@ import React from "react";
 const Html: React.FC = () => {
   return (
     <svg viewBox="-1 0 20 20" version="1.1" fill="#000000">
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      ></g>
+      <g id="SVGRepo_bgCarrier"></g>
+      <g id="SVGRepo_tracerCarrier"></g>
       <g id="SVGRepo_iconCarrier">
         {" "}
         <title>html [#0f172a]</title> <desc>Created with Sketch.</desc>{" "}
         <defs> </defs>{" "}
-        <g
-          id="Page-1"
-          stroke="none"
-          stroke-width="1"
-          fill="none"
-          fill-rule="evenodd"
-        >
+        <g id="Page-1" stroke="none" fill="none">
           {" "}
           <g
             id="Dribbble-Light-Preview"

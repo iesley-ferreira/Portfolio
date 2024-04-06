@@ -8,12 +8,8 @@ const TypeScript: React.FC = () => {
       viewBox="0 0 512 512"
       fill="#000000"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      ></g>
+      <g id="SVGRepo_bgCarrier"></g>
+      <g id="SVGRepo_tracerCarrier"></g>
       <g id="SVGRepo_iconCarrier">
         <rect width="512" height="512" rx="15%" fill="rgb(15, 23, 42)"></rect>
         <path

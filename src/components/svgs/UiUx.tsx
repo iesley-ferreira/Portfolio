@@ -3,12 +3,8 @@ import React from "react";
 const UiUx: React.FC = () => {
   return (
     <svg viewBox="-9 -5 115 115" fill="#000000">
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      ></g>
+      <g id="SVGRepo_bgCarrier"></g>
+      <g id="SVGRepo_tracerCarrier"></g>
       <g id="SVGRepo_iconCarrier">
         <path
           fill="#0f172a"

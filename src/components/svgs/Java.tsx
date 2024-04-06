@@ -8,7 +8,6 @@ const Java: React.FC = () => {
       width="40px"
       height="40px"
       viewBox="0 0 512 512"
-      enable-background="new 0 0 512 512"
     >
       <g id="5151e0c8492e5103c096af88a51e8d81">
         <path
