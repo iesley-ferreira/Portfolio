@@ -15,12 +15,12 @@ const skillList: Skill[] = [
   {
     name: "JavaScript",
     image: "JavaScript.tsx",
-    level: 4.2,
+    level: 4.6,
   },
   {
     name: "TypeScript",
     image: "TypeScript.tsx",
-    level: 4.4,
+    level: 3,
   },
   {
     name: "Java",
@@ -30,7 +30,7 @@ const skillList: Skill[] = [
   {
     name: "Python",
     image: "Python.tsx",
-    level: 3.1,
+    level: 3,
   },
   {
     name: "React",
@@ -55,17 +55,17 @@ const skillList: Skill[] = [
   {
     name: "Git",
     image: "Git.tsx",
-    level: 4,
+    level: 4.4,
   },
   {
     name: "GitHub",
     image: "GitHub.tsx",
-    level: 4,
+    level: 4.4,
   },
   {
     name: "UI-UX",
     image: "UiUx.tsx",
-    level: 4.2,
+    level: 4.6,
   },
   {
     name: "Html",
@@ -80,12 +80,12 @@ const skillList: Skill[] = [
   {
     name: "Redux",
     image: "Redux.tsx",
-    level: 4,
+    level: 4.4,
   },
   {
     name: "Vite",
     image: "Vite.tsx",
-    level: 4.2,
+    level: 4.6,
   },
   {
     name: "Node",
@@ -100,7 +100,7 @@ const skillList: Skill[] = [
   {
     name: "Mocha",
     image: "Mocha.tsx",
-    level: 3.8,
+    level: 3.4,
   },
   {
     name: "Jest",
@@ -130,7 +130,7 @@ const skillList: Skill[] = [
   {
     name: "VsCode",
     image: "VsCode.tsx",
-    level: 4.2,
+    level: 4.8,
   },
 ];
 
