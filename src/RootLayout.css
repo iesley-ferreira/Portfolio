@@ -51,6 +51,9 @@
 }
 
 @media (max-width: 768px) {
+  .outlet-container {
+    min-height: 100%;
+  }
   .layout-nav {
     display: none;
   }

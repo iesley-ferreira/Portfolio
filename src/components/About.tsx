@@ -12,34 +12,15 @@ const Info: React.FC = () => {
       </Link>
       <h2>About</h2>
       <div className="text-container">
-        <p>Meu nome é Iesley, e sou um apaixonado por tecnologia.</p>
         <p>
-          Desde que me envolvi com programação, descobri uma paixão por criar
-          soluções digitais e me desafiar constantemente a aprender e crescer.
-        </p>
-        <p>
-          Minha jornada até aqui tem sido marcada por determinação e entusiasmo
-          em explorar o vasto mundo do desenvolvimento web.
-        </p>
-        <p>
-          Descobri uma paixão por criar experiências digitais envolventes e
-          funcionais. Meu objetivo é ir além das expectativas dos clientes,
-          construindo não apenas websites, mas sim soluções digitais que
-          resolvam problemas de forma eficaz e impressionem os usuários.
-        </p>
-        <p>
-          Tenho na minha caixa de ferramentas diversas tecnologias. Estou
-          constantemente buscando aprender e me atualizar para garantir que
-          minhas habilidades estejam alinhadas com as últimas tendências e
-          melhores práticas do mercado. Além do desenvolvimento, sou um
-          entusiasta da usabilidade e da acessibilidade. Acredito que a
-          experiência do usuário deve ser prioridade em cada projeto que
-          empreendo. Quando não estou codificando, gosto de me inspirar em
-          diferentes formas de arte e explorar novas tecnologias. Estou sempre
-          pronto para enfrentar novos desafios e expandir meus horizontes. Estou
-          animado para colaborar com você e transformar suas ideias em
-          realidade. Vamos trabalhar juntos para criar algo verdadeiramente
-          excepcional.
+          Me chamo Iesley e sou apaixonado por tecnologia e desenvolvimento web.
+          Estou sempre em busca de aprendizado e crescimento, dedicando-me a
+          criar soluções digitais envolventes e funcionais que superem as
+          expectativas dos clientes. Priorizo a usabilidade e acessibilidade em
+          meus projetos, e estou sempre atualizado com as últimas tendências do
+          mercado. Fora do desenvolvimento, busco inspiração em diversas formas
+          de arte e estou pronto para enfrentar novos desafios. Estou ansioso
+          para colaborar com você e transformar suas ideias em realidade.
         </p>
       </div>
       <Link hidden className="arrow about-next-arrow" to="/skills">

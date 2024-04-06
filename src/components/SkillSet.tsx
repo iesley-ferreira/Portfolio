@@ -1,64 +1,153 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
-import './styles/SkillSet.css';
-import upArrow from "../assets/images/up-arrow.svg";
-import downArrow from "../assets/images/down-arrow.svg";
+import Downarrow from "../assets/images/down-arrow.svg";
+import Uparrow from "../assets/images/up-arrow.svg";
+import SkillCard from "./SkillCard";
+import "./styles/SkillSet.css";
 
 interface Skill {
   name: string;
-  level: string;
+  image: string;
+  level: number;
 }
 
-const skillList1: Skill[] = [
-  { name: 'RESTful APIs', level: 'Intermediate' },
-  { name: 'Agile Methodologies', level: 'Intermediate' },
-  { name: 'Responsive Web Design', level: 'Intermediate' },
-  { name: 'SQL', level: 'Intermediate' },
-  { name: 'MySQL', level: 'Intermediate' },
-  { name: 'Git', level: 'Intermediate' },
-  { name: 'GitHub', level: 'Intermediate' },
-  { name: 'UI', level: 'Intermediate' },
-  { name: 'UX', level: 'Intermediate' },
-  { name: 'Docker', level: 'Intermediate' },
-];
-
-const skillList2: Skill[] = [
-  { name: 'HTML', level: 'Advanced' },
-  { name: 'CSS', level: 'Advanced' },
-  { name: 'JavaScript', level: 'Advanced' },
-  { name: 'React', level: 'Advanced' },
-  { name: 'Redux', level: 'Intermediate' },
-  { name: 'Vite', level: 'Intermediate' },
-  { name: 'TypeScript', level: 'Intermediate' },
-  { name: 'Node.js', level: 'Intermediate' },
-  { name: 'Express.js', level: 'Intermediate' },
+const skillList: Skill[] = [
+  {
+    name: "JavaScript",
+    image: "JavaScript.tsx",
+    level: 4.2,
+  },
+  {
+    name: "TypeScript",
+    image: "TypeScript.tsx",
+    level: 4.4,
+  },
+  {
+    name: "Java",
+    image: "Java.tsx",
+    level: 3.1,
+  },
+  {
+    name: "Python",
+    image: "Python.tsx",
+    level: 3.1,
+  },
+  {
+    name: "React",
+    image: "ReactJs.tsx",
+    level: 4.2,
+  },
+  {
+    name: "Docker",
+    image: "Docker.tsx",
+    level: 3.5,
+  },
+  {
+    name: "SQL",
+    image: "Sql.tsx",
+    level: 3.5,
+  },
+  {
+    name: "MySQL",
+    image: "MySql.tsx",
+    level: 3.8,
+  },
+  {
+    name: "Git",
+    image: "Git.tsx",
+    level: 4,
+  },
+  {
+    name: "GitHub",
+    image: "GitHub.tsx",
+    level: 4,
+  },
+  {
+    name: "UI-UX",
+    image: "UiUx.tsx",
+    level: 4.2,
+  },
+  {
+    name: "Html",
+    image: "Html.tsx",
+    level: 5,
+  },
+  {
+    name: "Css",
+    image: "Css.tsx",
+    level: 5,
+  },
+  {
+    name: "Redux",
+    image: "Redux.tsx",
+    level: 4,
+  },
+  {
+    name: "Vite",
+    image: "Vite.tsx",
+    level: 4.2,
+  },
+  {
+    name: "Node",
+    image: "Node.tsx",
+    level: 4,
+  },
+  {
+    name: "SpringBoot",
+    image: "SpringBoot.tsx",
+    level: 3.5,
+  },
+  {
+    name: "Mocha",
+    image: "Mocha.tsx",
+    level: 3.8,
+  },
+  {
+    name: "Jest",
+    image: "Jest.tsx",
+    level: 3.8,
+  },
+  {
+    name: "Cypress",
+    image: "Cypress.tsx",
+    level: 3.8,
+  },
+  {
+    name: "Jwt",
+    image: "Jwt.tsx",
+    level: 3.8,
+  },
+  {
+    name: "Figma",
+    image: "Figma.tsx",
+    level: 4.2,
+  },
+  {
+    name: "IntelliJ",
+    image: "IntelliJ.tsx",
+    level: 4.2,
+  },
+  {
+    name: "VsCode",
+    image: "VsCode.tsx",
+    level: 4.2,
+  },
 ];
 
 const SkillSet: React.FC = () => {
   return (
-    <div id='Skill-Set' className='skill-set-container'>
+    <div id="Skill-Set" className="skill-set-container">
       <Link hidden className="arrow" to="/about">
-        <img src={upArrow} alt="back-arrow" />
+        <img src={Uparrow as string} alt="back-arrow" />
       </Link>
-      <h2>My Skills</h2>
-      <div className='skill-list'>
-        <ul>
-          {skillList1.map((skill, index) => (
-            <li key={index}>
-              {skill.name} - {skill.level}
-            </li>
-          ))}
-        </ul>
-        <ul>
-          {skillList2.map((skill, index) => (
-            <li key={index}>
-              {skill.name} - {skill.level}
-            </li>
-          ))}
-        </ul>
+      <h2>Skills</h2>
+      <div className="skill-list">
+        {skillList.map((skill, index) => (
+          <SkillCard key={index} skill={skill} />
+        ))}
       </div>
       <Link hidden className="arrow" to="/projects">
-        <img src={downArrow} alt="back-arrow" />
+        <img src={Downarrow as string} alt="back-arrow" />
       </Link>
     </div>
   );

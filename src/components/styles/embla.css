@@ -7,6 +7,7 @@
   /* --slide-size-sm: 50%; */
   /* --slide-spacing-lg: 8rem; */
   /* --slide-size-lg: calc(100% / 3); */
+  padding-bottom: 10rem;
 }
 .embla__viewport {
   overflow: hidden;
@@ -52,6 +53,7 @@
   .embla {
     width: 88vw;
     margin: 0;
+    padding-bottom: 4rem;
   }
 }
 @media (min-width: 1200px) {

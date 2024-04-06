@@ -29,10 +29,7 @@ const Hello: React.FC = () => {
               acessíveis.
             </p>
             <p>Juntos podemos tornar suas ideias realidade.</p>
-            <p>
-              Entre em contato hoje mesmo para discutir seu projeto e iniciar
-              uma jornada incrível.
-            </p>
+            <p>Entre em contato hoje mesmo para discutir seu projeto.</p>
           </div>
           <div className="contacts">
             <Lottie
@@ -51,10 +48,10 @@ const Hello: React.FC = () => {
           </div>
         </div>
         <div className="profile-image">
-          <img src={perfilImage} alt="perfil-image" />
+          <img src={perfilImage as string} alt="perfil-image" />
         </div>
       </div>
-      <Link hidden className="arrow" to="/about">
+      <Link hidden className="arrow down-arrow" to="/about">
         <DownArrow />
       </Link>
     </div>
