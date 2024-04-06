@@ -18,7 +18,9 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
   useEffect(() => {
     const importSvg = async () => {
       try {
-        const { default: Svg } = await import(`./skillsSvgs/${skill.image}`);
+        const { default: Svg } = await import(
+          `/home/ie/IESLEY/Projetos Pessoais/Portfolio/portfolio-iesley/src/components/skillsSvgs/${skill.image}`
+        );
 
         setSvgComponent(() => Svg);
       } catch (error) {
