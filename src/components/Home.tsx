@@ -11,7 +11,7 @@ import "./styles/Home.css";
 
 import "animate.css";
 import Mail from "./links/Mail";
-import DownArrow from "./svgs/arrows/DownArrow";
+import DownArrow from "./skillsSvgs/arrows/DownArrow";
 
 const Hello: React.FC = () => {
   return (

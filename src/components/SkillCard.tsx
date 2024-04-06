@@ -18,7 +18,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
   useEffect(() => {
     const importSvg = async () => {
       try {
-        const { default: Svg } = await import(`./svgs/${skill.image}`);
+        const { default: Svg } = await import(`./skillsSvgs/${skill.image}`);
 
         setSvgComponent(() => Svg);
       } catch (error) {
