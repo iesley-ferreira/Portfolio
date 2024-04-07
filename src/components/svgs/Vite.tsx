@@ -2,45 +2,39 @@ import React from "react";
 
 const Vite: React.FC = () => {
   return (
-    <svg viewBox="0 0 32 32" fill="none">
-      <g id="SVGRepo_bgCarrier"></g>
-      <g id="SVGRepo_tracerCarrier"></g>
-      <g id="SVGRepo_iconCarrier">
-        <path
-          d="M29.8836 6.146L16.7418 29.6457c-.2714.4851-.9684.488-1.2439.0052L2.0956 6.1482c-.3-.5262.1498-1.1635.746-1.057l13.156 2.3516a.7144.7144 0 00.2537-.0004l12.8808-2.3478c.5942-.1083 1.0463.5241.7515 1.0513z"
-          fill="url(#paint0_linear)"
-        ></path>
-        <path
-          d="M22.2644 2.0069l-9.7253 1.9056a.3571.3571 0 00-.2879.3294l-.5982 10.1038c-.014.238.2045.4227.4367.3691l2.7077-.6248c.2534-.0585.4823.1647.4302.4194l-.8044 3.9393c-.0542.265.1947.4918.4536.4132l1.6724-.5082c.2593-.0787.5084.1487.4536.414l-1.2784 6.1877c-.08.387.4348.598.6495.2662L16.5173 25 24.442 9.1848c.1327-.2648-.096-.5667-.387-.5106l-2.787.5379c-.262.0505-.4848-.1934-.4109-.4497l1.8191-6.306c.074-.2568-.1496-.5009-.4118-.4495z"
-          fill="rgb(148, 163, 184)"
-        ></path>
-        <defs id="defs50">
-          <linearGradient
-            id="paint0_linear"
-            x1="6.0002"
-            y1="32.9999"
-            x2="235"
-            y2="344"
-            gradientUnits="userSpaceOnUse"
-            gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
-          >
-            <stop id="stop38"></stop>
-            <stop offset="1" id="stop40"></stop>
-          </linearGradient>
-          <linearGradient
-            id="paint1_linear"
-            x1="194.651"
-            y1="8.8182"
-            x2="236.076"
-            y2="292.989"
-            gradientUnits="userSpaceOnUse"
-            gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
-          >
-            <stop id="stop43"></stop>
-            <stop offset=".0833" id="stop45"></stop>
-            <stop offset="1" id="stop47"></stop>
-          </linearGradient>
-        </defs>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      x="0px"
+      y="0px"
+      width="48"
+      height="48"
+      viewBox="0,0,256,256"
+    >
+      <g
+        fill="none"
+        fill-rule="nonzero"
+        stroke="none"
+        stroke-width="1"
+        stroke-linecap="butt"
+        stroke-linejoin="miter"
+        stroke-miterlimit="10"
+        stroke-dasharray=""
+        stroke-dashoffset="0"
+        font-family="none"
+        font-weight="none"
+        font-size="none"
+        text-anchor="none"
+      >
+        <g transform="scale(5.33333,5.33333)">
+          <path
+            d="M44.86,9.976l-19.837,35.472c-0.41,0.732 -1.462,0.737 -1.878,0.008l-20.23,-35.477c-0.453,-0.794 0.226,-1.756 1.126,-1.595l19.859,3.55c0.127,0.023 0.256,0.022 0.383,-0.001l19.443,-3.544c0.897,-0.164 1.579,0.791 1.134,1.587z"
+            fill="#0f172a"
+          ></path>
+          <path
+            d="M33.574,3.01l-14.555,2.852c-0.239,0.047 -0.416,0.25 -0.431,0.493l-0.895,15.121c-0.021,0.356 0.306,0.633 0.654,0.552l4.052,-0.935c0.379,-0.087 0.722,0.246 0.644,0.628l-1.204,5.895c-0.081,0.397 0.291,0.736 0.679,0.618l2.503,-0.76c0.388,-0.118 0.761,0.222 0.679,0.62l-1.913,9.26c-0.12,0.579 0.651,0.895 0.972,0.398l0.215,-0.332l11.86,-23.669c0.199,-0.396 -0.144,-0.848 -0.579,-0.764l-4.171,0.805c-0.392,0.076 -0.725,-0.289 -0.615,-0.673l2.722,-9.438c0.11,-0.382 -0.224,-0.748 -0.617,-0.671z"
+            fill="#94a3b8"
+          ></path>
+        </g>
       </g>
     </svg>
   );
