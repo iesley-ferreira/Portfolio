@@ -7,8 +7,15 @@
     <title>PORTFOLIO.</title>
   </head>
   <body>
+    <iframe id="iframeBg"> </iframe>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie_svg.js"></script>
+    <script type="module">
+      const rootElement = document.getElementById("root");
+      const iframeBg = document.getElementById("iframeBg");
+      import { webBgData } from "https://satyamv7.github.io/webBackground/index.js";
+      iframeBg.src = webBgData["8"].URL;
+    </script>
   </body>
 </html>
