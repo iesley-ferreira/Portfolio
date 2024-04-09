@@ -205,3 +205,11 @@ a:hover svg path {
   gap: 10px;
   font-size: 1.2em;
 }
+
+.animate__bounceInLeft {
+  --animate-duration: 2s;
+}
+
+.animate__zoomIn {
+  --animate-duration: 2s;
+}

@@ -10,8 +10,8 @@ const Info: React.FC = () => {
       <Link hidden className="arrow" to="/">
         <img src={upArrow as string} alt="back-arrow" />
       </Link>
-      <h2>About</h2>
-      <div className="text-container">
+      <h2 className="animate__animated animate__fadeInLeftBig">About</h2>
+      <div className="text-container animate__animated animate__fadeInRightBig">
         <p>
           Me chamo Iesley e sou apaixonado por tecnologia e desenvolvimento web.
           Estou sempre em busca de aprendizado e crescimento, dedicando-me a

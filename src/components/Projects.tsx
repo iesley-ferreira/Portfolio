@@ -19,7 +19,9 @@ const Projects: React.FC = () => {
         <Link hidden className="arrow projects__arrow" to="/skills">
           <img src={upArrow as string} alt="back-arrow" />
         </Link>
-        <h2 className="projects__title">Projects</h2>
+        <h2 className="projects__title animate__animated animate__rotateIn">
+          Projects
+        </h2>
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
       </div>
     </div>

@@ -18,11 +18,11 @@ const Hello: React.FC = () => {
     <div id="Home" className="main-container">
       <div className="principal">
         <div className="main-div">
-          <h1 className="animate__animated animate__fadeInUp animate__slow">
+          <h1 className="animate__animated animate__zoomInDown animate__slow">
             Iesley Ferreira.
           </h1>
           <p className="role typing__animation">Full-Stack Developer</p>
-          <div className="thankyou">
+          <div className="thankyou animate__animated animate__zoomIn">
             <p>Bem-vindo ao meu mundo digital!</p>
             <p>
               Minha especialidade é criar experiências digitais envolventes e
@@ -35,7 +35,7 @@ const Hello: React.FC = () => {
             </p>
           </div>
           <div className="contacts-container">
-            <div className="contacts">
+            <div className="contacts animate__animated animate__bounceInLeft">
               <Lottie
                 className="left-indication-icon"
                 animationData={animationData}

@@ -134,27 +134,14 @@ const skillList: Skill[] = [
   },
 ];
 
-// const skillListTest: Skill[] = [
-//   {
-//     name: "Css",
-//     image: "Css.tsx",
-//     level: 4.2,
-//   },
-//   {
-//     name: "Cypress",
-//     image: "Cypress.tsx",
-//     level: 4.4,
-//   },
-// ];
-
 const SkillSet: React.FC = () => {
   return (
     <div id="Skill-Set" className="skill-set-container">
       <Link hidden className="arrow" to="/about">
         <img src={Uparrow as string} alt="back-arrow" />
       </Link>
-      <h2>Skills</h2>
-      <div className="skill-list">
+      <h2 className="animate__animated animate__bounceInDown">Skills</h2>
+      <div className="skill-list animate__animated animate__backInUp">
         {skillList.map((skill, index) => (
           <SkillCard key={index} skill={skill} />
         ))}

@@ -95,7 +95,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   ];
 
   return (
-    <section className="embla">
+    <section className="embla animate__animated animate__rotateInUpLeft">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {projects.map((project) => (
