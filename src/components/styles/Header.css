@@ -36,10 +36,11 @@
 }
 
 .header-container h1 {
-  margin-left: 22%;
   font-size: 2em;
-  font-family: "ITC Avant Garde Gothic", "ITC Avant Garde Pro Bold", sans-serif;
+  /* font-family: "ITC Avant Garde Gothic", "ITC Avant Garde Pro Bold", sans-serif; */
   font-weight: 900;
+  color: white;
+  margin-left: 20vw;
 }
 
 .menu {
@@ -47,16 +48,12 @@
 }
 
 @media (max-width: 768px) {
-  .header-container-principal {
-  }
-
   .header-container {
-    height: 50px;
+    height: 58px;
     padding: 1.2rem;
   }
 
   .header-container h1 {
-    margin-left: 14%;
     font-size: 1.8em;
   }
 }

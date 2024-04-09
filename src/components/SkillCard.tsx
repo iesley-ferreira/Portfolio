@@ -129,7 +129,14 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
         <h3>{skill.name}</h3>
         {SvgComponent && <SvgComponent />}
         <div className="level-bar">
-          <div className="fill" style={{ width: `${fillPercentage}%` }}></div>
+          <div
+            className="fill fill-animation"
+            style={
+              {
+                "--fillPercentage": `${fillPercentage}%`,
+              } as React.CSSProperties
+            }
+          ></div>
         </div>
       </div>
     </div>
