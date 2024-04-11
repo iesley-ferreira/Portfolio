@@ -91,9 +91,11 @@
 }
 
 .profile-image img {
-  width: 120%;
+  width: 110%;
   background-size: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 30% 100%, 0 80%);
+  display: block;
+  border-radius: 34% 32%;
+  filter: drop-shadow(24px -6px 21px #000000ad);
 }
 
 .contacts {
