@@ -52,7 +52,7 @@ const Hello: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="profile-image animate__animated animate__zoomIn animate__slow">
+        <div className="profile-image animate__animated animate__zoomIn">
           <img src={perfilImage as string} alt="perfil-image" />
         </div>
       </div>
