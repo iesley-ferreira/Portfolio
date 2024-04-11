@@ -17,7 +17,7 @@ const Hello: React.FC = () => {
   return (
     <div id="Home" className="main-container">
       <div className="principal">
-        <div className="main-div">
+        <div className="main-div ">
           <h1 className="animate__animated animate__zoomInDown animate__slow">
             Iesley Ferreira.
           </h1>
@@ -52,7 +52,7 @@ const Hello: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="profile-image">
+        <div className="profile-image animate__animated animate__zoomIn animate__slow">
           <img src={perfilImage as string} alt="perfil-image" />
         </div>
       </div>
