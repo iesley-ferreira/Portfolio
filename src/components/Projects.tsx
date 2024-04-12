@@ -23,6 +23,10 @@ const Projects: React.FC = () => {
           Projects
         </h2>
         <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+        <p className="aviso">
+          Aviso: caso voce se depare com erro de CORS ao acessar os projetos,
+          aperte "ctrl + shift + r" no seu navegador.
+        </p>
       </div>
     </div>
   );
