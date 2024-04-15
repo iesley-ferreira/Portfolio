@@ -50,7 +50,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     },
     {
       id: 2,
-      title: "Trybe Tunes",
+      title: "TrybeTunes",
       description:
         "Um aplicativo de musicas para ouvir a prévia de seus artistas favoritos.",
       image: "/TrybeTunes-img.png",
@@ -59,7 +59,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     },
     {
       id: 3,
-      title: "Lottery-Frontend",
+      title: "LotteryFrontend",
       description: "Um aplicativo de avaliação para uma casa lotérica.",
       image: "/lottery2_resized.png",
       ref: "https://medquest.vercel.app",
@@ -67,11 +67,11 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     },
     {
       id: 4,
-      title: "Project4",
+      title: "RecipesApp",
       description:
-        "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "../src/assets/images/MedQuest_resized.png",
-      ref: "https://medquest.vercel.app",
+        "Um aplicativo de receitas que possibilita acompanhar o progresso e favoritar receitas.",
+      image: "/Recipes-App.png",
+      ref: "https://recipes-app-iesleyferreiras-projects.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
     {
