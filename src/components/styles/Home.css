@@ -94,8 +94,9 @@
   width: 110%;
   background-size: cover;
   display: block;
-  border-radius: 34% 32%;
-  filter: drop-shadow(24px -6px 21px #000000ad);
+  border-radius: 32% 34%;
+  filter: drop-shadow(24px -8px 21px #000000ad);
+  /* transform: scale(1.1); */
 }
 
 .contacts {
@@ -163,7 +164,7 @@ a:hover svg path {
     display: block;
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
-    padding-top: 10px;
+    /* padding-top: 10px; */
   }
 
   .contacts {

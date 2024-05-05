@@ -54,15 +54,15 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       description:
         "Um aplicativo de musicas para ouvir a prévia de seus artistas favoritos.",
       image: "/TrybeTunes-img.png",
-      ref: "https://trybe-tunes-iesley-ferreira.vercel.app/",
+      ref: "https://trybe-tunes-iesley-ferreira.vercel.app",
       stack: ["React", "Node.js", "css", "Vercel"],
     },
     {
       id: 3,
       title: "LotteryFrontend",
-      description: "Um aplicativo de avaliação para uma casa lotérica.",
+      description: "Um aplicativo para avaliação de uma casa lotérica.",
       image: "/lottery2_resized.png",
-      ref: "https://medquest.vercel.app",
+      ref: "https://lotericadalila.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "css", "Vercel"],
     },
     {

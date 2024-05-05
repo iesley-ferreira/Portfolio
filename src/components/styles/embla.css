@@ -1,12 +1,6 @@
 .embla {
   width: 51vw;
-  /* --slide-height: 19rem; */
   --slide-spacing: 1.2rem;
-  /* --slide-size: 100%; */
-  /* --slide-spacing-sm: 12rem; */
-  /* --slide-size-sm: 50%; */
-  /* --slide-spacing-lg: 8rem; */
-  /* --slide-size-lg: calc(100% / 3); */
   padding-top: 3rem;
   padding-bottom: 4rem;
 }
@@ -56,7 +50,7 @@
   .embla {
     width: 88vw;
     margin: 0;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 }
 @media (min-width: 1200px) {
@@ -65,16 +59,7 @@
     padding-left: var(--slide-spacing-lg);
   }
 }
-/* .embla__slide__number {
-  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
-  border-radius: 1.8rem;
-  font-size: 4rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--slide-height);
-} */
+
 .embla__controls {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -89,12 +74,8 @@
   align-items: center;
 }
 .embla__button {
-  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
-  -webkit-appearance: none;
   appearance: none;
   background-color: transparent;
-  /* touch-action: manipulation; */
-  /* display: inline-flex; */
   text-decoration: none;
   cursor: pointer;
   border: 0;
@@ -107,6 +88,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: scale(1.2);
 }
 
 .embla__button--selected::after {
@@ -126,12 +108,26 @@
   border: none;
 }
 
-.embla__button:disabled {
-  color: var(--detail-high-contrast);
+.embla__button:focus {
+  outline: none;
 }
+
+.embla__button:active {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  background-color: #1fdb1800;
+  fill: rgb(93, 58, 247);
+  scale: 1.1;
+  border: none;
+}
+
+.embla__button:disabled > .embla__button__svg {
+  color: rgb(76, 80, 80);
+}
+
 .embla__button__svg {
   width: 35%;
   height: 35%;
+  color: rgb(93, 58, 247);
 }
 .embla__dots {
   display: flex;
@@ -143,8 +139,6 @@
   margin-right: calc((2.6rem - 1.4rem) / 2 * -1);
 }
 .embla__dot {
-  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
-  -webkit-appearance: none;
   appearance: none;
   background-color: transparent;
   touch-action: manipulation;
@@ -163,14 +157,16 @@
   background-color: #ffffff;
 }
 .embla__dot:after {
-  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
   width: 1.4rem;
   height: 1.4rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
-  /* content: ""; */
+  content: "";
 }
 .embla__dot--selected:after {
-  box-shadow: inset 0 0 0 0.2rem var(--text-body);
+  background-color: rgb(93, 58, 247);
+  width: 9px;
+  height: 9px;
+  transform: scale(1.18);
 }

@@ -5,9 +5,19 @@
     <link rel="icon" type="image/svg+xml" href="/code.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO.</title>
+    <style>
+      #iframeBg {
+        opacity: 0;
+        transition: opacity 4s;
+      }
+
+      #iframeBg.show {
+        opacity: 1;
+      }
+    </style>
   </head>
   <body>
-    <iframe id="iframeBg"> </iframe>
+    <iframe className="iframe" id="iframeBg"> </iframe>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie_svg.js"></script>
@@ -16,6 +26,14 @@
       const iframeBg = document.getElementById("iframeBg");
       import { webBgData } from "https://satyamv7.github.io/webBackground/index.js";
       iframeBg.src = webBgData["8"].URL;
+    </script>
+    <script>
+      window.onload = function () {
+        const iframeBg = document.getElementById("iframeBg");
+        setTimeout(function () {
+          iframeBg.classList.add("show");
+        }, 1000);
+      };
     </script>
   </body>
 </html>

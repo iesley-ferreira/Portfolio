@@ -2,7 +2,7 @@ import Lottie from "lottie-react";
 import React from "react";
 import { Link } from "react-router-dom";
 import animationData from "../assets/animations/animation.json";
-import perfilImage from "../assets/images/img-perfil-01pb.png";
+import perfilImage from "../assets/images/a2.png";
 import GitHubLink from "./links/GitHub";
 import Instagram from "./links/Instagram";
 import LinkedIn from "./links/LinkedIn";
