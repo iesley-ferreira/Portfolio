@@ -60,7 +60,8 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     {
       id: 3,
       title: "LotteryFrontend",
-      description: "Um aplicativo para avaliação de uma casa lotérica.",
+      description:
+        "Um aplicativo para avaliação do atendimento de uma casa lotérica.",
       image: "/lottery2_resized.png",
       ref: "https://lotericadalila.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "css", "Vercel"],
