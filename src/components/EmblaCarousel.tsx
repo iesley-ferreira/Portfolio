@@ -74,24 +74,6 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
       ref: "https://recipes-app-iesleyferreiras-projects.vercel.app",
       stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
     },
-    {
-      id: 5,
-      title: "Project5",
-      description:
-        "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "../src/assets/images/MedQuest_resized.png",
-      ref: "https://medquest.vercel.app",
-      stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
-    },
-    {
-      id: 6,
-      title: "Project6",
-      description:
-        "Um aplicativo de perguntas e respostas para estudantes de medicina.",
-      image: "../src/assets/images/MedQuest_resized.png",
-      ref: "https://medquest.vercel.app",
-      stack: ["React", "TypeScript", "Node.js", "Redux", "css", "Vercel"],
-    },
   ];
 
   return (
